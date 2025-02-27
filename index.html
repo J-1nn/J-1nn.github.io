@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhaopeng Gu's Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .publication-image {
+            max-width: 300px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-lg font-semibold text-gray-800">Zhaopeng Gu's Homepage</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-blue-600">About Me</a>
+                    <a href="#news" class="text-gray-600 hover:text-blue-600">News</a>
+                    <a href="#publications" class="text-gray-600 hover:text-blue-600">Publications</a>
+                    <a href="#honors" class="text-gray-600 hover:text-blue-600">Honors and Awards</a>
+                    <a href="#educations" class="text-gray-600 hover:text-blue-600">Educations</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex flex-col md:flex-row">
+            <!-- 侧边栏 -->
+            <div class="md:w-1/4 p-4">
+                <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+                    <div class="flex justify-center mb-4">
+                        <img src="/api/placeholder/180/220" alt="Zhaopeng Gu" class="rounded-lg shadow-sm">
+                    </div>
+                    <h2 class="text-xl font-bold text-center mb-2">Zhaopeng Gu</h2>
+                    <p class="text-sm text-gray-700 text-center mb-4">Master's student at Institute of Automation, Chinese Academy of Sciences (CASIA)</p>
+                    <p class="text-sm text-gray-700 mb-3">Focusing on computer vision, industrial visual inspection and multi-modal learning.</p>
+                    <div class="mt-4">
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-map-marker-alt w-6 text-gray-600"></i>
+                            <span class="text-sm">Beijing, China</span>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-envelope w-6 text-gray-600"></i>
+                            <span class="text-sm">Email</span>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <i class="fab fa-github w-6 text-gray-600"></i>
+                            <span class="text-sm">Github</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-graduation-cap w-6 text-gray-600"></i>
+                            <span class="text-sm">Google Scholar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主要内容区域 -->
+            <div class="md:w-3/4 p-4">
+                <!-- 关于我 -->
+                <section id="about" class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-xl font-bold mb-4">
+                        <span class="text-orange-500 mr-2">👋</span>
+                        About Me
+                    </h2>
+                    <p class="mb-4">Hi! My name is Zhaopeng Gu (古兆鹏). I'm now a master's student at <a href="#" class="text-blue-600 hover:underline">Institute of Automation, Chinese Academy of Sciences</a>(中国科学院自动化研究所), supervised by <a href="#" class="text-blue-600 hover:underline">Assoc. Prof. Guibo Zhu</a> and <a href="#" class="text-blue-600 hover:underline">Asst. Prof. Bingke Zhu</a> at <a href="#" class="text-blue-600 hover:underline">Foundation Model Research Center</a>.</p>
+                    
+                    <p class="mb-4">I graduated from <a href="#" class="text-blue-600 hover:underline">School of Computer Science, Beijing University of Post and Telecommunication</a>(北京邮电大学计算机学院) with a bachelor's degree.</p>
+                    
+                    <p>My research interest includes computer vision, industrial visual inspection and multi-modal learning. I have published several papers at the top international AI conferences, and I'm also a reviewer for several high-quality journals such as IEEE Transactions on Multimedia and Pattern Recognition.</p>
+                </section>
+
+                <!-- 新闻 -->
+                <section id="news" class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-xl font-bold mb-4">
+                        <span class="text-orange-500 mr-2">📣</span>
+                        News
+                    </h2>
+                    <ul class="list-disc pl-6 space-y-3">
+                        <li class="text-gray-800">
+                            <span class="font-medium">2024.12:</span> 
+                            <span class="text-red-500">🎉</span> 
+                            One paper has been accepted by <span class="font-medium">IEEE Transactions on Instrumentation and Measurement</span> (IEEE TIM)!
+                        </li>
+                        <li class="text-gray-800">
+                            <span class="font-medium">2024.11:</span> 
+                            <span class="text-yellow-500">🏆</span> 
+                            Won the <span class="font-medium">China National Scholarship</span> at CASIA, by Ministry of Education of China!
+                        </li>
+                        <li class="text-gray-800">
+                            <span class="font-medium">2024.07:</span> 
+                            <span class="text-red-500">🎉</span> 
+                            One paper has been accepted by <span class="font-medium">ACM MULTIMEDIA 2024</span> (ACM MM, CCF-A Conference)!
+                        </li>
+                        <li class="text-gray-800">
+                            <span class="font-medium">2024.06:</span> 
+                            <span class="text-yellow-500">🏆</span> 
+                            Won the <span class="font-medium">1st Place</span> in the VAND 2.0 Challenge at CVPR 2024!
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 出版物 -->
+                <section id="publications" class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-xl font-bold mb-6">
+                        <span class="text-orange-500 mr-2">📚</span>
+                        Publications
+                    </h2>
+
+                    <!-- 论文1 -->
+                    <div class="mb-8 flex flex-col md:flex-row">
+                        <div class="md:w-2/5 mb-4 md:mb-0 md:pr-4">
+                            <div class="aspect-w-4 aspect-h-3">
+                                <img src="/api/placeholder/350/250" alt="ADFormer paper" class="publication-image shadow-md">
+                            </div>
+                        </div>
+                        <div class="md:w-3/5">
+                            <h3 class="text-lg font-semibold text-blue-600 mb-2">
+                                <a href="#" class="hover:underline">ADFormer: Generalizable Few-Shot Anomaly Detection With Dual CNN-Transformer Architecture</a>
+                            </h3>
+                            <p class="mb-2">Bingke Zhu, <strong>Zhaopeng Gu</strong>, Guibo Zhu, Yingying Chen, Ming Tang, Jinqiao Wang</p>
+                        </div>
+                    </div>
+
+                    <!-- 论文2 -->
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-2/5 mb-4 md:mb-0 md:pr-4">
+                            <div class="aspect-w-4 aspect-h-3">
+                                <img src="/api/placeholder/350/250" alt="FiLo paper" class="publication-image shadow-md">
+                            </div>
+                        </div>
+                        <div class="md:w-3/5">
+                            <h3 class="text-lg font-semibold text-blue-600 mb-2">
+                                <a href="#" class="hover:underline">FiLo: Zero-Shot Anomaly Detection by Fine-Grained Description and High-Quality Localization</a>
+                            </h3>
+                            <p class="mb-2">Zhaopeng Gu, Bingke Zhu, Guibo Zhu, Yingying Chen, Hao Li, Ming Tang, Jinqiao Wang</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 荣誉和奖项 (预留) -->
+                <section id="honors" class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-xl font-bold mb-4">
+                        <span class="text-orange-500 mr-2">🏆</span>
+                        Honors and Awards
+                    </h2>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>2024: China National Scholarship, Ministry of Education of China</li>
+                        <li>2024: 1st Place in the VAND 2.0 Challenge at CVPR 2024</li>
+                        <li>2023: Outstanding Graduate, Beijing University of Post and Telecommunication</li>
+                    </ul>
+                </section>
+
+                <!-- 教育经历 (预留) -->
+                <section id="educations" class="bg-white rounded-lg shadow-md p-6">
+                    <h2 class="text-xl font-bold mb-4">
+                        <span class="text-orange-500 mr-2">🎓</span>
+                        Educations
+                    </h2>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between">
+                                <h3 class="font-semibold">Institute of Automation, Chinese Academy of Sciences</h3>
+                                <span class="text-gray-600">2022 - Present</span>
+                            </div>
+                            <p class="text-gray-700">Master's Degree in Computer Vision</p>
+                        </div>
+                        <div>
+                            <div class="flex justify-between">
+                                <h3 class="font-semibold">Beijing University of Post and Telecommunication</h3>
+                                <span class="text-gray-600">2018 - 2022</span>
+                            </div>
+                            <p class="text-gray-700">Bachelor's Degree in Computer Science</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white mt-8 py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2024 Zhaopeng Gu. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
